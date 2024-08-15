@@ -76,7 +76,6 @@ class EdgeListGraph(Graph):
         ### Implement me! ###
         # remember to return booleans
         pass
-        
     
 
 
