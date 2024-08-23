@@ -2,8 +2,8 @@
     "dataStructure": "array",
     "rowNum": 70,
     "colNum": 100,
-    "entrances": [[40,-1],[1,100]],
-    "exits": [[-1,16]],
+    "entrances": [[0,-1],[-1,1]],
+    "exits": [[69, 100]],
     "generator": "recur",
     "visualise": false
 }
