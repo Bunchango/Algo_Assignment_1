@@ -1,5 +1,5 @@
 {
-    "dataStructure": "array",
+    "dataStructure": "inc-mat",
     "rowNum": 100,
     "colNum": 130,
     "entrances": [[40,-1],[1,100]],
