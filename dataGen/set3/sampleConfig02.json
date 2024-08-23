@@ -1,6 +1,6 @@
 {
     "dataStructure": "edge-list",
-    "rowNum": 5,
+    "rowNum": 10,
     "colNum": 20,
     "entrances": [[0,-1],[-1,1]],
     "exits": [[4, 19]],

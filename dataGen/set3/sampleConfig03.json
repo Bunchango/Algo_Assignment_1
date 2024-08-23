@@ -1,7 +1,7 @@
 {
     "dataStructure": "edge-list",
-    "rowNum": 5,
-    "colNum": 50,
+    "rowNum": 20,
+    "colNum": 40,
     "entrances": [[0,-1],[-1,1]],
     "exits": [[4, 50]],
     "generator": "recur",
