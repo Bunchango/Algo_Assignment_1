@@ -3,7 +3,7 @@
     "rowNum": 20,
     "colNum": 40,
     "entrances": [[0,-1],[-1,1]],
-    "exits": [[4, 50]],
+    "exits": [[19, 40]],
     "generator": "recur",
     "visualise": false
 }
