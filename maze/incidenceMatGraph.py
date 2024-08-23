@@ -142,12 +142,12 @@ class IncMatGraph(Graph):
             index = self.vertices[label]  # Get the vertex index
             
             # Iterate over the edges and find connected vertices
-            for i, (v1, v2, _) in enumerate(self.edges):
+            for i, (v1, v2, _) in enumerate(self.edges):                
                 if self.incidence_mat[index][i] == 1:
                     # Avoid adding the vertex itself
                     if v1 == label:
                         neighbours.append(v2)
-                    else:
+                    else:   
                         neighbours.append(v1)
-                        
+                
         return neighbours

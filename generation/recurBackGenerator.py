@@ -12,7 +12,7 @@ from collections import deque
 from maze.maze import Maze
 from maze.util import Coordinates
 from generation.mazeGenerator import MazeGenerator
-
+import time
 
 
 
@@ -41,7 +41,7 @@ class RecurBackMazeGenerator(MazeGenerator):
 		while len(visited) < totalCells:
 			# find all neighbours of current cell
 			neighbours : list[Coordinates] = maze.neighbours(currCell)
-
+   
 			# filter to ones that haven't been visited and within boundary
 			nonVisitedNeighs : list[Coordinates] = [neigh for neigh in neighbours if neigh not in visited and neigh.getRow() >= 0 and neigh.getRow() < maze.rowNum() and neigh.getCol() >= 0 and neigh.getCol() < maze.colNum()]
 			
@@ -52,7 +52,7 @@ class RecurBackMazeGenerator(MazeGenerator):
 
 				# we move there and knock down wall
 				maze.removeWall(currCell, neigh)
-
+    
 				# add to stack
 				stack.append(neigh)
 
