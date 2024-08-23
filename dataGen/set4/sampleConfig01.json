@@ -1,0 +1,9 @@
+{
+    "dataStructure": "edge-list",
+    "rowNum": 10,
+    "colNum": 20,
+    "entrances": [[0,-1],[-1,1]],
+    "exits": [[9, 20]],
+    "generator": "recur",
+    "visualise": false
+}
