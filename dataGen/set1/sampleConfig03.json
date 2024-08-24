@@ -1,5 +1,5 @@
 {
-    "dataStructure": "inc-mat",
+    "dataStructure": "edge-list",
     "rowNum": 30,
     "colNum": 30,
     "entrances": [[0,-1],[-1,1]],
