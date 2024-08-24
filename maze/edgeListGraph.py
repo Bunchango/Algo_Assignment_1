@@ -119,6 +119,7 @@ class EdgeListGraph(Graph):
         
         # Iterate through the edges to find all neighbours of the given vertex
         for v1, v2, _ in self.edges:
+            # Check if the vertex is the same as the given vertex
             if v1 == label:
                 neighbours.append(v2)
             elif v2 == label:
